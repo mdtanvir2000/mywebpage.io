@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>digital</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  height: 120px;
+  color: white;
+
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 470px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 470px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  height: 120px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<script>
+    function handleClick() {
+      // Perform actions when the icon is clicked
+      alert('Icon clicked!');
+  }
+  </script>
+<header>
+  <h2>Digital Skills</h2>
+</header>
+
+<section>
+  <nav>
+      <ul style="font-size: 30px;">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about me.html">About me</a></li>
+      <li><a href="mycv.html">CV</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="digital.html">Digital Skills</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="language.html">Language Skills</a></li>
+      <li><a href="Volunteer.html">Volunteering Works</a></li>
+      <li><a href="personal.html">Personal Information</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+<section id="skills">
+<ul style="font-size: 26px;">
+    <li>Programming Languages: Java, Python </li>
+    <li>Data Structures and Algorithms</li>
+    <li>Database Management</li>
+    <li>Software Development Methodologies</li>
+    <li>Web Development: HTML, CSS, JavaScript</li>
+    <li>Version Control: Git</li>
+    <li>Operating Systems: Windows, Linux</li>
+    <li>Microsoft Office Suite</li>
+    <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+    <li>Adobe Suite (Photoshop, Lightroom, Premiere, Bridge)</li>
+    <li>Social Media (Instagram, Facebook)</li>
+    <li>Google Docs</li>
+    <li>Google Drive</li>
+  </ul>
+</section>
+  </article>
+
+</section>
+
+<footer>
+  
+</footer>
+
+</body>
+</html>

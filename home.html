@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  height: 120px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 470px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+  background-color: #FFFFFF;
+  height: 470px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  height: 120px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<script>
+    function handleClick() {
+      // Perform actions when the icon is clicked
+      alert('Icon clicked!');
+  }
+  </script>
+<header>
+  <h2>Home</h2>
+</header>
+
+<section>
+  <nav>
+      <ul style="font-size: 30px;">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about me.html">About me</a></li>
+      <li><a href="mycv.html">CV</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="digital.html">Digital Skills</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="language.html">Language Skills</a></li>
+      <li><a href="Volunteer.html">Volunteering Works</a></li>
+      <li><a href="personal.html">Personal Information</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+<h6 style="text-align: center; font-size: 50px;">Welcome To My Page!</h6>
+
+  
+<ul style="text-align: center;">
+<head>
+  <title>Linkedin Icon</title>
+  <style>
+    .linkedin-icon {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-image: url("in12.gif"); /* image of icon for URL */
+      background-size: cover;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://www.linkedin.com/in/md-tanvir-hossain-917a64280//" target="_blank">
+    <div class="linkedin-icon"></div>
+  </a>
+</body>
+<head>
+  <title>github Icon</title>
+  <style>
+    .github-icon {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background-image: url("git_gif.gif"); /* image of icon for URL */
+      background-size: cover;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://github.com/mdtanvir2000/" target="_blank">
+    <div class="github-icon"></div>
+  </a>
+</body>
+<head>
+  <title>Facebook Icon</title>
+  <style>
+    .facebook-icon {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-image: url("fb_gif.gif"); /* image of icon for URL */
+      background-size: cover;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://www.facebook.com/imsylheti" target="_blank">
+    <div class="facebook-icon"></div>
+  </a>
+</body>
+ <head>
+<title>Instagram Icon</title>
+  <style>
+    .instagram-icon {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background-image: url("ig20.gif"); /* image of icon for URL */
+      background-size: cover;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://www.instagram.com/mohammed__tanvir/" target="_blank">
+    <div class="instagram-icon"></div>
+  </a>
+</body>
+
+
+
+
+</ul>
+</section>
+
+  </article>
+
+
+<footer>
+
+</footer>
+
+</body>
+</html>

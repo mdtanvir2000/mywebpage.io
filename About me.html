@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>about</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  height: 120px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 470px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 470px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  height: 120px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<script>
+    function handleClick() {
+      // Perform actions when the icon is clicked
+      alert('Icon clicked!');
+  }
+  </script>
+<header>
+  <h2>About Me</h2>
+</header>
+
+<section>
+  <nav>
+      <ul style="font-size: 30px;">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about me.html">About me</a></li>
+      <li><a href="mycv.html">CV</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="digital.html">Digital Skills</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="language.html">Language Skills</a></li>
+      <li><a href="Volunteer.html">Volunteering Works</a></li>
+      <li><a href="personal.html">Personal Information</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <section id="about">
+
+
+<ul style="font-size: 18.5px;">
+
+  <p>
+   I am a diligent and motivated student doing a BSc in Computer Science at GISMA Business School in Germany. I am enthusiastic to contribute to the ever-evolving field of computer science since I have a strong enthusiasm for technology and problem solving.
+  </p>
+  <p>
+    Throughout my academic career, I have built abilities in data structures, algorithms, database administration, and software development processes, as well as a good foundation in programming languages such as Python. I appreciate learning about new technology and being current on industry trends.
+  </p>
+  <p>
+    As a student, I regularly participate in collaborative projects and courses, which have helped me improve my cooperation and communication skills. I thrive in demanding circumstances that need critical thinking and close attention to detail. To be at the forefront of innovation, I am constantly willing to learn and adapt to new technologies and frameworks.
+  </p>
+  <p>
+   In addition to my academic interests, I participate in extracurricular activities such as coding contests and hackathons to improve my problem-solving abilities and get practical experience. These experiences have honed my capacity to operate under duress, think imaginatively, and produce projects on time.
+  </p>
+  <p>
+    I am excited about the potential of computer science to positively benefit society. I am looking for possibilities to utilize my knowledge and abilities in a demanding and dynamic atmosphere where I can contribute to creative initiatives while also growing personally and professionally.
+</section>
+
+  </article>
+
+</section>
+
+<footer>
+  
+</footer>
+
+</body>
+</html>
